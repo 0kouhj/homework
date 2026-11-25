@@ -1,0 +1,45 @@
+# Runtime state and local exports can contain task data and browser sessions.
+.state/
+/outputs/
+shared_prefs/
+account_vault_*.xml
+account_vault_*.xml.bak
+*.password-status.json
+*.log
+
+# Local accounts, credentials, sessions, and signing material.
+.env
+.env.*
+!.env.example
+auth.json
+account.json
+accounts.json
+credential.json
+credentials.json
+secrets.json
+cookies.json
+cookies.txt
+session.json
+sessions.json
+storage-state.json
+storage_state.json
+local.properties
+keystore.properties
+signing.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Dependencies, caches, and build products.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/build/
+/dist/
+/课业日程.exe
+*.apk
+*.aab

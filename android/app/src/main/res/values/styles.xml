@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">课业日程</string>
+    <string name="pending_count">%d 项未截止</string>
+    <string name="notification_on">系统通知已开启</string>
+    <string name="notification_off">系统通知未开启</string>
+    <string name="exact_on">精确提醒已开启</string>
+    <string name="exact_off">未授权精确提醒，通知可能延后</string>
+    <string name="permission_status">%1$s\n%2$s\n%3$s\n%4$s</string>
+    <string name="reminder_channels">每日汇总频道%1$s · 截止提醒频道%2$s</string>
+    <string name="channel_on">已开启</string>
+    <string name="channel_off">未开启</string>
+    <string name="background_status_unknown">此 Android 版本无法查询后台限制</string>
+    <string name="background_status_restricted">Android 当前限制此应用在后台运行</string>
+    <string name="background_status_clear">Android 当前未报告此应用受后台限制</string>
+    <string name="miui_autostart_help">小米和 Redmi 手机的后台扫描还需要在系统设置中允许「课业日程」自启动。</string>
+    <string name="miui_autostart_settings">自启动设置</string>
+    <string name="test_reminder_scheduled">试提醒已安排，预计 1 分钟后到达</string>
+    <string name="test_reminder_blocked">试提醒需要开启应用通知和截止提醒频道</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#235849</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowBackground">#F4F7F4</item>
+    </style>
+</resources>
